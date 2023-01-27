@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Sadaf_Website</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="vakForm">
+        <form id="#formVakToevoegen">
+          <h2 id="toevoegen">Vak toevoegen</h2>
+          <div id="naam">
+            <label for="Vaknaam">Naam: </label><br />
+            <input type="text" id="Vaknaam" name="Vaknaam" /><br />
+          </div>
+          <div id="code">
+            <label for="VakCode">Code: </label><br />
+            <input type="text" id="VakCode" name="VakCode" /><br />
+          </div>
+
+          <div id="taal">
+            <label for="VakTaal">Taal: </label><br />
+            <input type="text" id="VakTaal" name="VakTaal" /><br />
+          </div>
+          <button id="btnVerzenden">Verzenden</button>
+        </form>
+
+        <form id="formWijzigen">
+          <h2 id="wijzigen">student wijzigen</h2>
+          <div id="studentennummer">
+            <label for="studentStudentennummer">studentennr: </label><br />
+            <input
+              type="text"
+              id="studentStudentennummer"
+              name="studentStudentennummer"
+            /><br />
+          </div>
+
+          <div id="voornaam">
+            <label for="studentVoornaam">Voornaam: </label><br />
+            <input
+              type="text"
+              id="studentVoornaam"
+              name="studentVoornaam"
+            /><br />
+          </div>
+          <div id="familienaam">
+            <label for="studentFamilienaam">Familienaam: </label><br />
+            <input
+              type="text"
+              id="studentFamilienaam"
+              name="studentFamilienaam"
+            /><br />
+          </div>
+
+          <button id="btnWijzigen">Wijzigen</button>
+        </form>
+      </div>
+      <div id="alert">
+        <h2>Vakkenlijst</h2>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/opties.js"></script>
+  </body>
+</html>

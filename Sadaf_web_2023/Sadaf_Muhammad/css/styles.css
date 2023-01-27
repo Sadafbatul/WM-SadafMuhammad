@@ -1,0 +1,161 @@
+body {
+  font-family: sans-serif;
+  background-color: #e8dede;
+  padding: 20px;
+}
+input {
+  margin-top: 0.25em;
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+  margin-right: 10px;
+}
+form h2 {
+  text-align: right;
+  color: orange;
+}
+.knop {
+  border: solid 1px black;
+  width: 10em;
+  display: inline-block;
+  margin: 0.25em;
+  padding: 0.2em;
+  justify-content: center;
+}
+
+.rijData,
+.rij {
+  display: block;
+  width: 97vw;
+  height: 1.6em;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.rijData span {
+  border: solid 1px black;
+}
+.rijData:hover {
+  background-color: aliceblue;
+}
+.rijData span,
+.rij span {
+  display: block;
+  float: left;
+  width: 25%;
+  overflow: word-wrap;
+  box-sizing: border-box;
+}
+
+.kOdd {
+  color: black;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto 0;
+  z-index: 1;
+}
+.kOdd span {
+  border: solid 1px black;
+  background-color: lightpink;
+  position: relative;
+}
+
+label {
+  display: inline-block;
+  width: 10em;
+}
+
+#alert {
+  background-color: lightcoral;
+  border-style: dotted;
+  color: black;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.tabel {
+  border: solid 1px;
+  background-color: #dad7e8;
+
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.header {
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  position: sticky;
+}
+.opties {
+  float: right;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.kader {
+  display: block;
+  right: 230px;
+  width: 100px;
+  height: 50px;
+  position: sticky;
+  z-index: 100;
+}
+
+.geklikt {
+  background: aliceblue;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#vakForm div {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+#vakForm div label {
+  display: block;
+  width: 100px;
+}
+
+#vakForm {
+  width: 35%;
+  border-style: dotted;
+  background-color: lightcoral;
+}
+
+#vakForm button {
+  display: flex;
+  justify-content: right;
+}
+
+#btnVerzenden,
+#btnWijzigen {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+form#formWijzigen {
+  visibility: hidden;
+}
+
+input {
+  margin: -2px;
+}
